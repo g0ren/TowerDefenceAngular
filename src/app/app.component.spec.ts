@@ -12,16 +12,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'PV111TD1'`, () => {
+  it(`should have as title 'PV111-TD'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('PV111TD1');
+    expect(app.title).toEqual('PV111-TD');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('PV111TD1 app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('PV111-TD app is running!');
   });
 });
