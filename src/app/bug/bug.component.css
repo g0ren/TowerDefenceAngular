@@ -1,0 +1,13 @@
+.Bug{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.Bug img {
+  position: relative;
+  top: calc(10% - 32px);
+  left: calc(10% - 32px);
+}
